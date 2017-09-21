@@ -1,0 +1,47 @@
+body{
+	background: #eee;
+}
+
+#todolistWrapper{
+	width: 960px;
+	position: relative;
+	margin:50px auto;
+	background: white;
+	padding: 23px;
+	border:solid 1px #ccc;
+}
+
+#todolist:after{
+	display: table;
+	content: "";
+	clear: both;
+}
+
+#todolist ul{
+	width: 14.28%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: inline-block;
+}
+
+#todolist li{
+	background: none;
+	padding: 5px;
+	border: none;
+	margin: 0;
+	text-align: left;
+	font-size: 12px;
+}
+
+#todolist li:hover{
+	background: #eee;
+}
+
+#todolist li.listtitle{
+	background: #444;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	
+}
