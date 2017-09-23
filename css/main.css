@@ -2,6 +2,38 @@ body{
 	background: #eee;
 }
 
+#headtitle{
+	font-size: 50px;
+	text-align: center;
+}
+
+ul{
+	width: 48%;
+	float: left;
+	margin: 0;
+	padding: 0 1%;
+	list-style: none;
+}
+
+ul li{
+	background: #eee;
+	padding: 10px;
+	margin: 2px 0;
+	border: solid 1px #ccc;
+}
+
+ul li:hover{
+	background: #ddd;
+	border-color: #aaa;
+	cursor: pointer;
+}
+
+ul li:active{
+	transform: rotate(2deg);
+	background: #ccc;
+	border-color: #999;
+	box-shadow: 0 10px -4px #111;
+}
 #todolistWrapper{
 	width: 960px;
 	position: relative;
@@ -43,5 +75,51 @@ body{
 	color: white;
 	padding: 10px;
 	text-align: center;
-	
+	border-right: solid 1px white;
+	font-size: 14px;
+}
+
+#todolist li.listtitle:hover,
+#todolist li.listtitle:active {
+	cursor: default;
+	transform: none;
+}
+
+#todolist .emptySpace{
+	background: #fc3;
+	border: dashed 1px #777;
+	height: 10px;
+}
+
+#todolist li.additem{
+	display: none;
+	position: absolute;
+	top: 0;
+	background: none;
+}
+
+#todolist ul:hover li.additem{
+	display: block;
+}
+
+#todolist li.additem input{
+	width: 90%;
+	padding: 4px;
+}
+
+#todolist li.additem:active{
+	transform: none;
+}
+
+#todolist li.addeditem{
+	word-break: normal;
+}
+
+#trash{
+	background: blue;
+	color: white;
+	height: 100px;
+	width: 300px;
+	margin: 50px auto 0;
+	text-align: center;
 }
