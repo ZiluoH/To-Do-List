@@ -112,7 +112,8 @@ ul li:active{
 }
 
 #todolist li.addeditem{
-	word-break: normal;
+	word-break: break-all;
+	font-size: 16px;
 }
 
 #trash{
@@ -123,3 +124,7 @@ ul li:active{
 	margin: 50px auto 0;
 	text-align: center;
 }
+
+/*.checkmark{
+	display: none;
+}*/
