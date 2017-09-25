@@ -1,5 +1,5 @@
 $('#todolist ul').sortable({
-	item:"li:not('.listtitle, .additem')",
+	items:"li:not('.listtitle, .additem')",
 	connectWith:"ul",
 	dropOnEmpty:true,
 	placeholder:"emptySpace"
@@ -21,10 +21,4 @@ $('#trash').droppable({
 })
 
 
-
-$(document).ready(function() {
-	$(".checkmark").click(function(){
-		$(".checkmark").toggleClass("fa-check")
-	})
-})
 
