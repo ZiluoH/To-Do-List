@@ -9,7 +9,7 @@ $('input').keydown(function(e){
 	if(e.keyCode == 13){
 		var item = $(this).val();
 
-		$(this).parent().parent().append('<li class=addeditem>' + '<i class="checkmark fa fa-check" aria-hidden="true"></i>' + item + '</li>');
+		$(this).parent().parent().append('<li class=addeditem>' + '<input type="checkbox" class="checkBox">' + item + '</li>');
 		$(this).val('');
 	}
 });

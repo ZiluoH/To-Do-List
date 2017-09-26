@@ -5,6 +5,8 @@ body{
 #headtitle{
 	font-size: 50px;
 	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
 }
 
 ul{
@@ -37,10 +39,12 @@ ul li:active{
 #todolistWrapper{
 	width: 960px;
 	position: relative;
-	margin:50px auto;
+	margin:100px auto;
 	background: white;
 	padding: 23px;
 	border:solid 1px #ccc;
+	border-radius: 10px;
+	/*box-shadow: 5px 5px 5px black;*/
 }
 
 #todolist:after{
@@ -76,7 +80,8 @@ ul li:active{
 	padding: 10px;
 	text-align: center;
 	border-right: solid 1px white;
-	font-size: 14px;
+	font-size: 20px;
+	font-family: 'Fredericka the Great', cursive;
 }
 
 #todolist li.listtitle:hover,
@@ -105,6 +110,7 @@ ul li:active{
 #todolist li.additem input{
 	width: 90%;
 	padding: 4px;
+	margin-top: 4px;
 }
 
 #todolist li.additem:active{
@@ -114,6 +120,9 @@ ul li:active{
 #todolist li.addeditem{
 	word-break: break-all;
 	font-size: 16px;
+	font-family: 'Waiting for the Sunrise', cursive;
+	font-size: 26px;
+	font-weight: bold;
 }
 
 #trash{
@@ -125,6 +134,14 @@ ul li:active{
 	text-align: center;
 }
 
-.checkmark{
-	display: none;
+.checkBox{
+	margin-left: 0;
+	width: 17px;
+	height: 17px;
+	color: blue;
+	background: blue;
 }
+
+
+
+/*checkbox animation*/
