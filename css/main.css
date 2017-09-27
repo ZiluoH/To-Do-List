@@ -126,20 +126,26 @@ ul li:active{
 }
 
 #trash{
-	background: blue;
-	color: white;
-	height: 100px;
-	width: 300px;
-	margin: 50px auto 0;
+	height: 150px;
+	width: 100px;
+	margin: 200px auto 30px;
 	text-align: center;
+}
+
+.fa-trash-o{
+	font-size: 6em;
+}
+
+#trashP{
+	font-family: 'Indie Flower', cursive; 
+	font-weight: bold;
+	margin-top: 10px;
 }
 
 .checkBox{
 	margin-left: 0;
 	width: 17px;
 	height: 17px;
-	color: blue;
-	background: blue;
 }
 
 
