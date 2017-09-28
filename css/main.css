@@ -1,5 +1,5 @@
 body{
-	background: #eee;
+	background: #D0E9FF;
 }
 
 #headtitle{
@@ -75,7 +75,7 @@ ul li:active{
 }
 
 #todolist li.listtitle{
-	background: #444;
+	background: #00343F;
 	color: white;
 	padding: 10px;
 	text-align: center;
